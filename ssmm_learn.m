@@ -1,6 +1,6 @@
 function [model,obj] = ssmm_learn(args,param)
 
-%Setting the default parameter for the ssmm model
+%Setting the default parameter for the msmm model
 model.C = 1;
 model.tau = 0.1;
 model.rho = 1;
